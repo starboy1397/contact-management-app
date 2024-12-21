@@ -16,8 +16,7 @@ public class Contact {
     @ColumnInfo(name = "contact_email")
     private String email;
 
-    public Contact(int id, String name, String email) {
-        this.id = id;
+    public Contact(String name, String email) {
         this.name = name;
         this.email = email;
     }
